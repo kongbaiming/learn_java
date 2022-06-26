@@ -13,6 +13,7 @@ public class TestExtends {
         stu01.major = "dev";
         stu01.study();
         stu01.rest();
+        System.out.println(stu01 instanceof PersonImpl);
     }
 
 }
