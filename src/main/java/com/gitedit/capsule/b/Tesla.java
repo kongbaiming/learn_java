@@ -5,13 +5,13 @@ import com.gitedit.capsule.a.Car;
 /**
  * @author king
  */
-public class Testla extends Car {
-    public Testla(int id, String brand) {
+public class Tesla extends Car {
+    public Tesla(int id, String brand) {
         super(id, brand);
     }
 
     public void test() {
         super.autoLight();
-        super.autoLight();
+        super.run();
     }
 }
