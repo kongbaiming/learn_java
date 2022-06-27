@@ -1,6 +1,7 @@
 package com.gitedit.capsule;
 
 import com.gitedit.capsule.a.ByD;
+import com.gitedit.capsule.a.User;
 import com.gitedit.capsule.b.Tesla;
 
 /**
@@ -25,5 +26,13 @@ public class TestCapsule {
         b1.run();
         t1.test();
         t1.run();
+        User u01 = new User();
+        u01.setName("king");
+        u01.setId(10);
+        u01.getId();
+        u01.setPwd("123456");
+        u01.getPwd();
+        u01.login();
+
     }
 }
