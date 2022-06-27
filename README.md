@@ -8,4 +8,8 @@ java 学习笔记！ 奥利给！！！
 
 # 内部类分类
 
-![img.png](img.png)
+![img.png](src/main/resources/img/img2.png)
+
+# 字符串方法列表
+
+![img_1.png](src/main/resources/img/img_1.png)
