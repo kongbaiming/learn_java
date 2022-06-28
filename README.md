@@ -20,4 +20,4 @@ java 学习笔记！ 奥利给！！！
 
 # 时间格式化字符含义
 
-![img.png](src/main/resources/img/img04.png)
+![img.png](img04.png)

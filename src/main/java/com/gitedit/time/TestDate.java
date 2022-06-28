@@ -52,5 +52,13 @@ public class TestDate {
         int month = calendar.get(Calendar.MONTH);
         System.out.println(year);
         System.out.println(month);
+        // 日期计算
+        // 往后100天
+        calendar.add(Calendar.DATE, 100);
+        System.out.println(calendar.getTime());
+        // 往前1年
+        calendar.add(Calendar.YEAR, -1);
+        System.out.println(calendar.getTime());
+
     }
 }
